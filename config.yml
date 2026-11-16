@@ -1,0 +1,9 @@
+# Replace placeholders locally or set MYSQL_* environment variables.
+# Never commit your actual database password to GitHub.
+mysql:
+  host: mysql.clarksonmsda.org
+  port: 3306
+  user: YOUR_MYSQL_USERNAME
+  password: YOUR_MYSQL_PASSWORD
+  database: YOUR_MYSQL_DATABASE
+  autocommit: true
